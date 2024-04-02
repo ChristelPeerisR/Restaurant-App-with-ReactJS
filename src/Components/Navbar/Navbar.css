@@ -1,0 +1,59 @@
+nav{
+    width: 100%;
+    color: #fff;
+    padding: 4px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+}
+.logo{
+    width: 50px;
+    padding-top: 5px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 5px 15px;
+    list-style: none;
+    font-size: 16px;
+}
+nav ul li a:hover{
+    color: #adadad;
+}
+.search{
+    border-radius: 30px;
+    width: 300px;
+    height: 35px;
+    border: 0;
+    margin-right: 20px;
+} 
+nav input{
+    padding-left: 20px;
+}
+.dark-nav{
+    background: rgb(82, 8, 82);
+    transition: 0.5s;
+}
+a{
+    transition: 2s;
+}
+.light-btn{
+    background: #fff;
+    color: black;
+    padding: 10px 15px;
+    font-size: 13px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    border-radius: 20px;
+}
+.light-btn:hover{
+    background: #f0ecec;
+    color: rgb(82, 8, 82);
+}
+

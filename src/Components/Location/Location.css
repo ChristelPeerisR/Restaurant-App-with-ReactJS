@@ -1,0 +1,60 @@
+.location{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    padding-bottom: 20px;    
+}
+.locationleft{
+    flex-basis: 60%;
+}
+.locationright{
+    flex-basis: 40%;
+    text-align: center;
+}
+.location-img{
+    width: 100%;
+    border-radius: 10px;
+}
+.location h4{
+    font-weight: 600;
+    font-weight: 16px;
+    font-size: 25px;
+    color: rgb(82, 8, 82);
+    padding-bottom: 40px;
+}
+.location p{
+    font-size: 20px;
+    margin: 10px;
+    color: rgb(86, 6, 86);
+    max-width: 400px;
+    padding-top: 10px;
+}
+.locsearch{
+    border-radius: 30px;
+    width: 300px;
+    height: 35px;
+    border: 0;
+} 
+input{
+    padding-left: 20px;
+}
+.dark-btn{
+    background: rgb(82, 8, 82);
+    color: #fff;
+    padding: 8px 15px;
+    font-size: 12px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    border-radius: 20px;
+}
+.dark-btn:hover{
+    background: rgb(126, 39, 126);
+}
+.locationright button{
+    margin: 10px;
+}
