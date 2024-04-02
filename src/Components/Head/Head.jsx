@@ -4,7 +4,7 @@ import rewards from '../../assets/rewards.png'
 
 const Head = () => {
   return (
-    <div className='head container'>
+    <div id="home" className='head container'>
         <div className='head-text'>
             <h1>Tacos on the Go</h1>
             <p>For a limited time, join Tacolicious Rewards to get a<br/>
